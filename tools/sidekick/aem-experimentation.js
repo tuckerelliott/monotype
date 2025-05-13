@@ -30,7 +30,7 @@
         "https://experience.adobe.com/solutions/ExpSuccess-aem-experimentation-mfe/static-assets/resources/sidekick/client.js?source=plugin";
 
       script.onload = function () {
-        isAEMExperimentationAppLoaded = true;
+        isAEMExperimentationAppLoaded = false;
         const waitForContainer = (retries = 0, maxRetries = 20) => {
           const container = document.getElementById("aemExperimentation");
           if (container) {
