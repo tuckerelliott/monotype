@@ -28,13 +28,13 @@
       const script = document.createElement("script");
       script.src =
         "https://experience.adobe.com/solutions/ExpSuccess-aem-experimentation-mfe/static-assets/resources/sidekick/client.js?source=plugin";
-
+      /*
       script.onload = function () {
         isAEMExperimentationAppLoaded = true;
         const waitForContainer = (retries = 0, maxRetries = 20) => {
           const container = document.getElementById("aemExperimentation");
           if (container) {
-            toggleExperimentPanel(false); // Force show on initial load
+            toggleExperimentPanel(true); // Force show on initial load
             resolve();
           } else if (retries < maxRetries) {
             setTimeout(() => waitForContainer(retries + 1, maxRetries), 200);
@@ -45,7 +45,7 @@
 
         waitForContainer();
       };
-
+*/
       script.onerror = reject;
       document.head.appendChild(script);
     });
