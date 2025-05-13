@@ -40,7 +40,6 @@
 
 .hlx-badge {
   --color: #888;
-
   border-radius: 2em;
   background-color: var(--color);
   border-style: solid;
@@ -274,6 +273,7 @@
   }
   
   .hlx-preview-overlay {
+    display: none;
     flex-flow: row wrap-reverse;
     justify-content: flex-end;
     font-size: 1.5rem;

@@ -3,14 +3,16 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 32px;
 }
 
+/*
 .cards > ul > li {
   border: 1px solid var(--dark-color);
   background-color: var(--background-color);
 }
+*/
 
 .cards .cards-card-body {
   margin: 16px;
@@ -59,6 +61,7 @@
 }
 .cards > ul > li img {
   aspect-ratio: 1 / 1;
+  border-radius: 8px;
 }
 
 .cards.across .cards-card-image { grid-area: image; }
@@ -71,4 +74,11 @@
   .cards.across  > ul > li {
     display: block;
   }
+}
+
+.cards a.button:any-link, button {
+  all: unset;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
 }

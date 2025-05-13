@@ -13,10 +13,12 @@
 
 .columns > div > .columns-img-col {
   order: 0;
+  margin-bottom: 72px;
 }
 
 .columns > div > .columns-img-col img {
   display: block;
+  border-radius: 8px;
 }
 
 @media (width >= 900px) {

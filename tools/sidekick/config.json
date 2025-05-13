@@ -45,7 +45,7 @@
         "en": "Experimentation"
       },
       "environments": [
-        "preview"
+        "preview, develop"
       ],
       "includePaths": [
         "**.docx**"

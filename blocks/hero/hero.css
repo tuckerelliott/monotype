@@ -9,14 +9,24 @@ main .hero-container {
 .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  min-height: 900px;
+  text-align: center;
 }
 
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 200px;
   color: white;
+  font-size: 5.16rem;
+  line-height: 5.5rem;
+}
+
+.hero p {
+  font-size: 2.074rem;
+  line-height: 2.5rem;
+  font-weight: 600;
 }
 
 .hero picture {
@@ -31,4 +41,77 @@ main .hero-container {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.hero a.button:any-link, button {
+  font-family: var(--body-font-family);
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 12px 24px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #000;
+  background-color: #FFF;
+  margin: 16px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 8px;
+}
+
+.hero.article {
+  position: relative;
+  padding: 32px;
+  text-align: left;
+  background-color: #1e242c;
+}
+
+.hero.article img {
+  width: 910px;
+  height: 455px;
+  padding-top: 150px;
+}
+
+.hero.article h1 {
+  max-width: 600px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 0px;
+  color: white;
+  font-size: 2.625rem;
+  line-height: 46px;
+  margin-bottom: 0.5em;
+  font-family: HelveticaDisplay;
+}
+
+.hero.article picture {
+  z-index: 1;
+}
+
+.hero.article p {
+  max-width: 350px;
+  margin-left: 950px;
+  font-size: 2.074rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: #FFF;
+  font-family: HelveticaDisplay;
+}
+
+.hero.article {
+  min-height: 541px;
+}
+
+.hero.article p::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
