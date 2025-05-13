@@ -34,7 +34,7 @@
         const waitForContainer = (retries = 0, maxRetries = 20) => {
           const container = document.getElementById("aemExperimentation");
           if (container) {
-            toggleExperimentPanel(false); // Force show on initial load
+            toggleExperimentPanel(true); // Force show on initial load
             resolve();
           } else if (retries < maxRetries) {
             setTimeout(() => waitForContainer(retries + 1, maxRetries), 200);
