@@ -49,8 +49,7 @@
       ],
       "includePaths": [
         "**.docx**"
-      ],
-      "event": "aem-experimentation-sidekick"
+      ]
     }
   ]
 }
