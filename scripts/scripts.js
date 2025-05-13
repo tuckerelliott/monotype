@@ -253,19 +253,6 @@ async function loadEager(doc) {
   } catch (e) {
     // do nothing
   }
-
-  if (main) {
-    decorateMain(main);
-    // wait for alloy to finish loading
-    await alloyLoadedPromise;
-    // show the LCP block in a dedicated frame to reduce TBT
-    await new Promise((res) => {
-      window.requestAnimationFrame(async () => {
-        await waitForLCP(LCP_BLOCKS);
-        res();
-      });
-    });
-  }
 }
 
 /**
