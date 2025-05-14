@@ -72,6 +72,10 @@ main .form-container {
     /* margin: var(--nav-height) auto; eslint-disable-line comment-empty-line-before */
 }
 
+main .form-wrapper {
+        max-width: 700px;
+}
+
 main .form {
     background-color: var(--form-background-color);
     visibility: hidden;
