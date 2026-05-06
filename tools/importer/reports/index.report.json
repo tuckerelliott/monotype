@@ -2,11 +2,11 @@
   "status": "success",
   "url": "https://www.monotype.com",
   "path": "index",
-  "timestamp": "2026-05-06T15:32:16.448Z",
+  "timestamp": "2026-05-06T18:39:21.862Z",
   "title": "Font Management, Licensing & Typography Platform | Monotype",
   "template": "homepage",
   "blocks": [
-    "hero-steps",
+    "hero",
     "columns-stats",
     "cards-product",
     "tabs-showcase",
