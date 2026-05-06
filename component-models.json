@@ -275,5 +275,121 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "hero-steps",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "heading",
+        "value": "",
+        "label": "Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "cta",
+        "value": "",
+        "label": "Call to Action",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "steps",
+        "value": "",
+        "label": "Steps",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hero-cta",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "heading",
+        "value": "",
+        "label": "Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "cta",
+        "value": "",
+        "label": "Call to Action",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "card-product",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tab-showcase",
+    "fields": [
+      {
+        "component": "text",
+        "name": "tabLabel",
+        "value": "",
+        "label": "Tab Label",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tab-testimonial",
+    "fields": [
+      {
+        "component": "text",
+        "name": "label",
+        "value": "",
+        "label": "Tab Label",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
   }
 ]

@@ -26,8 +26,14 @@
       "button",
       "title",
       "hero",
+      "hero-steps",
+      "hero-cta",
       "cards",
+      "cards-product",
       "columns",
+      "columns-stats",
+      "tabs-showcase",
+      "tabs-testimonial",
       "content-fragment",
       "fragment",
       "teaser",
@@ -40,6 +46,24 @@
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "cards-product",
+    "components": [
+      "card-product"
+    ]
+  },
+  {
+    "id": "tabs-showcase",
+    "components": [
+      "tab-showcase"
+    ]
+  },
+  {
+    "id": "tabs-testimonial",
+    "components": [
+      "tab-testimonial"
     ]
   },
   {
