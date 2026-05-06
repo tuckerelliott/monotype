@@ -1,0 +1,13 @@
+{
+  "variantName": "columns-stats",
+  "baseBlock": "columns",
+  "sourceUrl": "https://www.monotype.com",
+  "createdDate": "2026-05-06",
+  "visualCharacteristics": {
+    "layout": "two-column",
+    "leftContent": "infographic image",
+    "rightContent": "heading, subtitle, statistics list with numbers",
+    "background": "light",
+    "textColor": "dark"
+  }
+}

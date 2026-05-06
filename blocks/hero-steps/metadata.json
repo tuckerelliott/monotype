@@ -1,0 +1,13 @@
+{
+  "variantName": "hero-steps",
+  "baseBlock": "hero",
+  "sourceUrl": "https://www.monotype.com",
+  "createdDate": "2026-05-06",
+  "visualCharacteristics": {
+    "layout": "two-column",
+    "leftContent": "headline, subtitle, CTAs",
+    "rightContent": "numbered step list (01-03)",
+    "background": "dark/navy",
+    "textColor": "white"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Hero Steps",
+  "description": "Hero block with headline, subtitle, CTAs, and a numbered step list on the right side",
+  "model": {
+    "fields": [
+      {"name": "heading", "type": "richtext", "required": true},
+      {"name": "text", "type": "richtext"},
+      {"name": "ctas", "type": "richtext"},
+      {"name": "steps", "type": "richtext", "description": "Numbered step list with title and description per step"}
+    ]
+  }
+}

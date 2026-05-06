@@ -1,0 +1,13 @@
+{
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "sourceUrl": "https://www.monotype.com",
+  "createdDate": "2026-05-06",
+  "visualCharacteristics": {
+    "layout": "tabbed panels with two-column before/after",
+    "tabStyle": "pill/rounded tabs on dark background",
+    "panelContent": "before description left, after quote right",
+    "background": "dark/navy",
+    "textColor": "white"
+  }
+}

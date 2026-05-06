@@ -1,0 +1,12 @@
+{
+  "variantName": "hero-cta",
+  "baseBlock": "hero",
+  "sourceUrl": "https://www.monotype.com",
+  "createdDate": "2026-05-06",
+  "visualCharacteristics": {
+    "layout": "centered-single-column",
+    "background": "blue/accent",
+    "textColor": "white",
+    "alignment": "center"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.monotype.com",
+  "path": "index",
+  "timestamp": "2026-05-06T15:32:16.448Z",
+  "title": "Font Management, Licensing & Typography Platform | Monotype",
+  "template": "homepage",
+  "blocks": [
+    "hero-steps",
+    "columns-stats",
+    "cards-product",
+    "tabs-showcase",
+    "tabs-testimonial",
+    "cards",
+    "hero-cta"
+  ]
+}

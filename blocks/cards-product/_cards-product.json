@@ -1,0 +1,10 @@
+{
+  "name": "Cards Product",
+  "description": "Product comparison cards with name, description, audience info, and CTA",
+  "model": {
+    "fields": [
+      {"name": "image", "type": "image"},
+      {"name": "content", "type": "richtext", "description": "Product name, description, made-for audience, and CTA link"}
+    ]
+  }
+}

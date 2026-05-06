@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.monotype.com"
+      ],
+      "description": "Monotype homepage with hero, product showcases, and brand messaging",
+      "blocks": [
+        {
+          "name": "hero-steps",
+          "instances": [
+            "section.hero"
+          ]
+        },
+        {
+          "name": "columns-stats",
+          "instances": [
+            "section.how-section"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "section.selector-section"
+          ]
+        },
+        {
+          "name": "tabs-showcase",
+          "instances": [
+            "section.monotype-portfolio-section"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            "section.workflow-tabs-section"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".mt-gallery-listing"
+          ]
+        },
+        {
+          "name": "hero-cta",
+          "instances": [
+            ".mt-cta-section-default-wrapper"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero",
+          "selector": "section.hero",
+          "style": "dark",
+          "blocks": [
+            "hero-steps"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-how",
+          "name": "How Section",
+          "selector": "section.how-section",
+          "style": null,
+          "blocks": [
+            "columns-stats"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-selector",
+          "name": "Product Selector",
+          "selector": "section.selector-section",
+          "style": null,
+          "blocks": [
+            "cards-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-portfolio",
+          "name": "Portfolio Deep Dive",
+          "selector": "section.monotype-portfolio-section",
+          "style": null,
+          "blocks": [
+            "tabs-showcase"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5-workflow",
+          "name": "Workflow Tabs",
+          "selector": "section.workflow-tabs-section",
+          "style": "dark",
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6-resources",
+          "name": "Resources Gallery",
+          "selector": ".mt-gallery-listing",
+          "style": null,
+          "blocks": [
+            "cards"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7-cta",
+          "name": "CTA Banner",
+          "selector": ".mt-cta-section-default-wrapper",
+          "style": "accent",
+          "blocks": [
+            "hero-cta"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

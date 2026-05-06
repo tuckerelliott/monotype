@@ -1,0 +1,12 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "sourceUrl": "https://www.monotype.com",
+  "createdDate": "2026-05-06",
+  "visualCharacteristics": {
+    "layout": "grid-4-columns",
+    "cardStyle": "bordered, rounded corners",
+    "content": "product name, feature description, audience, CTA",
+    "background": "white cards on light background"
+  }
+}

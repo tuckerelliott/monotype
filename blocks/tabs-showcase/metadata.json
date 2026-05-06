@@ -1,0 +1,12 @@
+{
+  "variantName": "tabs-showcase",
+  "baseBlock": "tabs",
+  "sourceUrl": "https://www.monotype.com",
+  "createdDate": "2026-05-06",
+  "visualCharacteristics": {
+    "layout": "tabbed panels with two-column content",
+    "tabStyle": "horizontal tabs with bottom border indicator",
+    "panelContent": "text + features on left, image on right",
+    "background": "light"
+  }
+}

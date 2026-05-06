@@ -1,0 +1,10 @@
+{
+  "name": "Tabs Showcase",
+  "description": "Tabbed product showcase with features list and image per tab panel",
+  "model": {
+    "fields": [
+      {"name": "tabLabel", "type": "text", "required": true},
+      {"name": "content", "type": "richtext", "description": "Tab panel content with heading, description, features list, CTA, and image"}
+    ]
+  }
+}

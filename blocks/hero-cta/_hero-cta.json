@@ -1,0 +1,11 @@
+{
+  "name": "Hero CTA",
+  "description": "Full-width CTA banner with heading, description, and action buttons on colored background",
+  "model": {
+    "fields": [
+      {"name": "heading", "type": "richtext", "required": true},
+      {"name": "text", "type": "richtext"},
+      {"name": "ctas", "type": "richtext"}
+    ]
+  }
+}

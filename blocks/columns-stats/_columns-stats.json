@@ -1,0 +1,10 @@
+{
+  "name": "Columns Stats",
+  "description": "Two-column layout with image on left and heading, subtitle, and statistics list on right",
+  "model": {
+    "fields": [
+      {"name": "image", "type": "image", "required": true},
+      {"name": "content", "type": "richtext", "description": "Heading, subtitle, and stat items (number + description)"}
+    ]
+  }
+}

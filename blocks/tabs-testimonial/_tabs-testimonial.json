@@ -1,0 +1,10 @@
+{
+  "name": "Tabs Testimonial",
+  "description": "Before/after tabbed testimonials with pain point and customer quote per tab",
+  "model": {
+    "fields": [
+      {"name": "tabLabel", "type": "text", "required": true},
+      {"name": "content", "type": "richtext", "description": "Before text (pain point) and after quote with attribution"}
+    ]
+  }
+}
