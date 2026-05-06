@@ -2,7 +2,7 @@
 /* global WebImporter */
 
 /**
- * Parser: hero-steps
+ * Parser: hero
  * Base block: hero
  * Source: https://www.monotype.com
  * Selector: section.hero
@@ -97,6 +97,6 @@ export default function parse(element, { document }) {
     cells.push([stepsFrag]);
   }
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'hero-steps', cells });
+  const block = WebImporter.Blocks.createBlock(document, { name: 'hero', cells });
   element.replaceWith(block);
 }

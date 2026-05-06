@@ -2,7 +2,7 @@
 /* global WebImporter */
 
 // PARSER IMPORTS
-import heroStepsParser from './parsers/hero-steps.js';
+import heroParser from './parsers/hero.js';
 import columnsStatsParser from './parsers/columns-stats.js';
 import cardsProductParser from './parsers/cards-product.js';
 import tabsShowcaseParser from './parsers/tabs-showcase.js';
@@ -16,7 +16,7 @@ import monotypeSectionsTransformer from './transformers/monotype-sections.js';
 
 // PARSER REGISTRY
 const parsers = {
-  'hero-steps': heroStepsParser,
+  'hero': heroParser,
   'columns-stats': columnsStatsParser,
   'cards-product': cardsProductParser,
   'tabs-showcase': tabsShowcaseParser,
@@ -38,7 +38,7 @@ const PAGE_TEMPLATE = {
   urls: ['https://www.monotype.com'],
   blocks: [
     {
-      name: 'hero-steps',
+      name: 'hero',
       instances: ['section.hero'],
     },
     {
@@ -72,7 +72,7 @@ const PAGE_TEMPLATE = {
       name: 'Hero',
       selector: 'section.hero',
       style: 'dark',
-      blocks: ['hero-steps'],
+      blocks: ['hero'],
       defaultContent: [],
     },
     {

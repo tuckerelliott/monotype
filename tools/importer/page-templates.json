@@ -11,7 +11,7 @@
       "description": "Monotype homepage with hero, product showcases, and brand messaging",
       "blocks": [
         {
-          "name": "hero-steps",
+          "name": "hero",
           "instances": [
             "section.hero"
           ]
@@ -60,7 +60,7 @@
           "selector": "section.hero",
           "style": "dark",
           "blocks": [
-            "hero-steps"
+            "hero"
           ],
           "defaultContent": []
         },

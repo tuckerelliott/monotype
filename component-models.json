@@ -277,39 +277,6 @@
     ]
   },
   {
-    "id": "hero-steps",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "heading",
-        "value": "",
-        "label": "Heading",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "description",
-        "value": "",
-        "label": "Description",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "cta",
-        "value": "",
-        "label": "Call to Action",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "steps",
-        "value": "",
-        "label": "Steps",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
     "id": "hero-cta",
     "fields": [
       {
